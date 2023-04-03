@@ -1,6 +1,6 @@
 public class DoubleNode<T> {
     private T key;
-    private DoubleNode<T> next;
+    public DoubleNode<T> next;
     private DoubleNode<T> prev;
     public DoubleNode(T key){
         this.key = key;

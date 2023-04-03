@@ -1,12 +1,13 @@
 public class Main{
     public static void main(String args[]){
-        DoubleLinkedList<Integer> list = new DoubleLinkedList();
-        ArrayQueue<Integer> queue = new ArrayQueue<>();
-        queue.add(3);
-        queue.add(2);
-        queue.poll();
-        int i= queue.search(2);
-       System.out.print(i);
+
+        Node<Integer> p = new Node(12);
+        Node<Integer> q = new Node(5);
+        p.setNext(q);
+        q.setNext(p);
+        System.out.print(1%2);
+
+
         // queue.print();
     }
 }

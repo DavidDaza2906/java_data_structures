@@ -1,6 +1,6 @@
 public class DoubleLinkedList<T> {
-    private DoubleNode<T> head;
-    private DoubleNode<T> tail;
+    public DoubleNode<T> head;
+    public DoubleNode<T> tail;
     private int size;
     public DoubleLinkedList(){
         this.head = null;
